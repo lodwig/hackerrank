@@ -50,7 +50,6 @@ function BinarySearchTree() {
         }
         
         tinggi += (tinggiKiri > tinggiKanan ? tinggiKiri : tinggiKanan);
-        
         return tinggi;
         
     }; // End of function getHeight
